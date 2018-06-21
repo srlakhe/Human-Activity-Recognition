@@ -11,12 +11,3 @@ standing_features = get_mat_new_comb('./FinalData/Train/TrainCombinedFile_standi
 total_features = [walking_features;sitting_features;laying_features;standing_features];
 total_features = [0:size(total_features,2)-1;total_features];
 csvwrite('TrainData_10_4.csv',total_features);
-
-
-
-
-
-
-
-
-
